@@ -7,6 +7,10 @@ const nextConfig = {
                 protocol: 'https',
                 hostname: 'demo.themexbd.com',
             },
+            {
+                protocol: 'https',
+                hostname: 'user-images.githubusercontent.com',
+            }
         ],
     },
 };

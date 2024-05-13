@@ -19,8 +19,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`bg-[#FFFFFF]${inter.className}`}>{children}</body>
+    <html
+      lang="en"
+      className="[&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+    >
+      <body className={`bg-[#FFFFFF] ${inter.className}`}>
+        <div id="model"></div>
+        {children}
+      </body>
     </html>
   );
 }
