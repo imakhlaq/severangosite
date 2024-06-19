@@ -14,7 +14,7 @@ const Header = (props: Props) => {
           <div className="relative max-w-20 -ml-8 md:ml-0">
             <Image className="mix-blend-multiply" src={logo} alt={"logo"} />
           </div>
-          <h1 className="text-center text-xl md:text-3xl font-medium lg:text-2xl">
+          <h1 className="text-center text-xl md:text-3xl font-medium lg:text-2xl text-textColorBlack">
             Savera Gramin Foundation
           </h1>
         </div>

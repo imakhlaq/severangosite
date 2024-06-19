@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Barlow } from "next/font/google";
 import "./globals.css";
+import Header from "@/app/_components/header/header";
 
 const inter = Barlow({
   weight: ["100", "200", "300", "400", "500", "600"],
@@ -25,6 +26,7 @@ export default function RootLayout({
     >
       <body className={`bg-[#FFFFFF] ${inter.className}`}>
         <div id="model"></div>
+        <Header />
         {children}
       </body>
     </html>

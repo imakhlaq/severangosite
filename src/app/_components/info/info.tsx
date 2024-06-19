@@ -5,7 +5,7 @@ type Props = {};
 const Info = (props: Props) => {
   return (
     <>
-      <section className="px-3 py-10 text-center text-lg lg:text-xl mx-auto md:max-w-6xl">
+      <section className="px-3 py-10 text-center text-lg lg:text-xl mx-auto md:max-w-6xl text-black mt-10 md:mt-16">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
           consequuntur, deleniti earum ex harum, hic nihil non officiis

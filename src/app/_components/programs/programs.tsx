@@ -11,7 +11,7 @@ export default function Programs({}: Props) {
   return (
     <section className="mt-36 mx-auto">
       <h3 className="text-center text-3xl font-extrabold mb-14 md:text-4xl ">
-        OUR PROGRAMS
+        OUR PROGRAMMES
       </h3>
 
       <div className="grid lg:grid-cols-2 lg:gap-16 space-y-6">
