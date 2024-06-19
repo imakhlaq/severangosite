@@ -30,7 +30,11 @@ const ImageSlider = (props: Props) => {
         </p>
 
         <div className="flex gap-3">
-          <Donation></Donation>
+          <Donation
+            addClasses={[
+              "text-whiteText uppercase font-semibold px-6 py-2 mt-4 md:px-9 md:py-2 lg:px-12 lg:py-4 xl:px-16 xl:py-4 md:text-xl lg:text-2xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300",
+            ]}
+          ></Donation>
 
           <Button className="bg-white/40 btn-primary">Contact</Button>
         </div>

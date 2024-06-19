@@ -10,11 +10,11 @@ const Header = (props: Props) => {
     <header className="">
       <InfoBar />
       <div className="flex items-center justify-around gap-2 px-2 py-3">
-        <div className="flex items-center justify-center gap-2">
-          <div className="relative max-w-20">
+        <div className="flex items-center justify-around md:justify-center gap-4">
+          <div className="relative max-w-20 -ml-8 md:ml-0">
             <Image className="mix-blend-multiply" src={logo} alt={"logo"} />
           </div>
-          <h1 className="text-center text-2xl md:text-3xl font-medium lg:text-2xl">
+          <h1 className="text-center text-xl md:text-3xl font-medium lg:text-2xl">
             Savera Gramin Foundation
           </h1>
         </div>

@@ -21,7 +21,7 @@ const Mobilemenu = (props: Props) => {
           Courses
         </DropdownMenuItem>
         <DropdownMenuItem>
-          <Donation></Donation>
+          <Donation addClasses={["px-4 py-2"]}></Donation>
         </DropdownMenuItem>
         <DropdownMenuItem className=" hover:text-greenColor font-medium text-md cursor-pointer">
           Contact
