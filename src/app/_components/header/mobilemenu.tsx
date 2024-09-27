@@ -9,7 +9,7 @@ import { IoMenu } from "react-icons/io5";
 import Donation from "@/app/_components/donation";
 
 type Props = {};
-const Mobilemenu = (props: Props) => {
+const MobileMenu = (props: Props) => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger className=" px-4 py-2 border-none outline-none">
@@ -33,4 +33,4 @@ const Mobilemenu = (props: Props) => {
     </DropdownMenu>
   );
 };
-export default Mobilemenu;
+export default MobileMenu;

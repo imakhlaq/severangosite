@@ -4,7 +4,7 @@ type Props = {};
 const Impact = (props: Props) => {
   return (
     <section className="mt-20">
-      <h3 className="text-center text-3xl font-extrabold mb-8 md:text-4xl uppercase">
+      <h3 className="text-center text-3xl font-extrabold mb-16 md:text-4xl uppercase">
         Our Impact
       </h3>
       <div className="grid grid-cols-2 lg:grid-cols-4 px-5 lg:px-10 gap-4">

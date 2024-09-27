@@ -2,7 +2,7 @@
 import Donation from "@/app/_components/donation";
 
 type Props = {};
-const Computermenu = (props: Props) => {
+const ComputerMenu = (props: Props) => {
   return (
     <>
       <nav className="hidden lg:block">
@@ -28,4 +28,4 @@ const Computermenu = (props: Props) => {
     </>
   );
 };
-export default Computermenu;
+export default ComputerMenu;

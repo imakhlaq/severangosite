@@ -1,26 +1,22 @@
 export const impact = [
   {
-    figure: "15+",
-    info: "LAC",
-    discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus",
+    figure: "1000+",
+    info: "Families",
+    discription: "children and their families are impacted every year.",
   },
   {
-    figure: "200+",
+    figure: "100+",
     info: "VILLAGES",
-    discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus",
+    discription: "and slums are reached out to across the country.",
   },
   {
-    figure: "400+",
+    figure: "40+",
     info: "PROECTS",
-    discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus",
+    discription: "focused on education, healthcare, and women empowerment.",
   },
   {
-    figure: "25+",
+    figure: "10+",
     info: "STATES",
-    discription:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus",
+    discription: "are reached including the remotest areas",
   },
 ];

@@ -14,21 +14,22 @@ export default function Programs({}: Props) {
         OUR PROGRAMMES
       </h3>
 
-      <div className="grid lg:grid-cols-2 lg:gap-16 space-y-6">
+      <div className="grid lg:grid-cols-2 lg:gap-16 space-y-6 ">
         <div className="flex mx-auto px-5 gap-8">
           <div className="relative h-[6rem] w-[6rem] md:w-[8rem] md:h-[8rem]">
             <Image src={education} alt="book image" fill />
           </div>
           <div>
-            <h5 className="uppercase font-extrabold text-2xl underline text-[#F0C675] mb-2 ">
+            <h5 className="uppercase font-extrabold text-2xl underline text-[#B3D3D2] mb-2 ">
               education
             </h5>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusantium, sequi.
+              Taking way of Education, Nutrition and holistic development of
+              children.
             </p>
           </div>
         </div>
+
         <div className="flex mx-auto px-5 gap-8">
           <div className="relative h-[6rem] w-[6rem] md:w-[8rem] md:h-[8rem]">
             <Image src={womenEnp} alt="book image" fill />
@@ -38,11 +39,11 @@ export default function Programs({}: Props) {
               women empowerment
             </h5>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusantium, sequi.
+              Empowering adolescent girls & womens through community engagement.
             </p>
           </div>
         </div>
+
         <div className="flex mx-auto px-5 gap-8">
           <div className="relative h-[6rem] w-[6rem] md:w-[8rem] md:h-[8rem]">
             <Image src={glassdoor} alt="book image" fill />
@@ -52,8 +53,7 @@ export default function Programs({}: Props) {
               empowering grassroots
             </h5>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusantium, sequi.
+              Helping community-based organizations become locally sustainable.
             </p>
           </div>
         </div>
@@ -66,8 +66,8 @@ export default function Programs({}: Props) {
               healthcare
             </h5>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusantium, sequi.
+              Taking healthcare services to doorsteps of hard to reach
+              communities.
             </p>
           </div>
         </div>
@@ -80,8 +80,8 @@ export default function Programs({}: Props) {
               livelihod
             </h5>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusantium, sequi.
+              Skill training and placement support for underprivileged youth in
+              finding jobs.
             </p>
           </div>
         </div>
@@ -94,8 +94,7 @@ export default function Programs({}: Props) {
               disaster response
             </h5>
             <p className="text-lg">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Accusantium, sequi.
+              Reach out and respond to the need of the disaster-affected people.
             </p>
           </div>
         </div>
