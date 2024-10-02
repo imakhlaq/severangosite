@@ -1,33 +1,24 @@
 import React from "react";
 import Image from "next/image";
 import hero from "@/../public/class/allstudentandteachers.jpg";
+import qr from "@/../public/qr/QR.jpg";
 
 type Props = {};
 
 const HeroDonation = (props: Props) => {
   return (
-    <section className="">
-      <div className="relative w-[40rem] h-[30rem] mx-auto mt-6 lg:w-[60rem] lg:h-[50rem]">
-        <Image
-          src={hero}
-          alt="Students and teachers"
-          className="mix-blend-multiply rounded-md"
-          fill
-        />
+    <section className="flex flex-col md:flex-row items-center gap-10 md:gap-0 md:py-14 md:mt-10 justify-around">
+      <div className="md:max-w-96 lg:max-w-[40rem]">
+        <Image src={hero} width={800} height={100} alt="Student Pics"></Image>
       </div>
-      <div>
-        <h3 className="font-bold text-4xl mt-6 text-center text-textColorBlack">
-          SUPPORT THE CAUSE
-        </h3>
-        <div className="flex text-center mt-10"></div>
-        <div className="text-center bg-slate-500 py-4 rounded-md">
-          <p className="text-2xl text-textColorBlack font-bold">
-            UPI: <span>imakhlaqxd@upi</span>
-          </p>
-        </div>
-        <div>
-          <p>QR Code</p>
-        </div>
+      <div className="py-3 lg:py-0 lg:flex-initial lg:max-w-[20rem] lg:-ml-24 xl:-ml-72">
+        <p className="text-center text-2xl font-bold mb-3 text-greenColor">
+          Support Our Cause
+        </p>
+        <Image src={qr} width={300} height={400} alt="Student Pics"></Image>
+        <p className="text-center text-2xl font-bold text-greenColor mt-3 mb-10">
+          Scan QR Code
+        </p>
       </div>
     </section>
   );

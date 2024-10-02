@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { IoMenu } from "react-icons/io5";
 import Donation from "@/app/_components/donation";
+import Link from "next/link";
 
 type Props = {};
 const MobileMenu = (props: Props) => {
@@ -18,16 +19,16 @@ const MobileMenu = (props: Props) => {
       <DropdownMenuContent className="min-w-[100vw] flex flex-col items-center text-whiteText bg-gradient-to-r from-stone-400 to-stone-500 border-none outline-none">
         <DropdownMenuSeparator />
         <DropdownMenuItem className=" hover:text-greenColor font-medium text-md cursor-pointer">
-          Courses
+          <Link href={"/courses"}>Courses</Link>
         </DropdownMenuItem>
         <DropdownMenuItem>
           <Donation addClasses={["px-4 py-2"]}></Donation>
         </DropdownMenuItem>
         <DropdownMenuItem className=" hover:text-greenColor font-medium text-md cursor-pointer">
-          Contact
+          <Link href={"/about"}>Contact</Link>
         </DropdownMenuItem>
         <DropdownMenuItem className=" hover:text-greenColor font-medium text-md cursor-pointer">
-          About
+          <Link href={"/about"}>About</Link>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

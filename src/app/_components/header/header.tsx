@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "@/app/_components/header/navbar";
 import InfoBar from "@/app/_components/header/infoBar";
 import Computermenu from "@/app/_components/header/computermenu";
+import Link from "next/link";
 
 type Props = {};
 const Header = (props: Props) => {
@@ -15,7 +16,7 @@ const Header = (props: Props) => {
             <Image className="mix-blend-multiply" src={logo} alt={"logo"} />
           </div>
           <h1 className="text-center text-xl md:text-3xl font-medium lg:text-2xl text-textColorBlack">
-            Savera Gramin Foundation
+            <Link href={"/"}> Savera Gramin Foundation</Link>
           </h1>
         </div>
         <Computermenu />
