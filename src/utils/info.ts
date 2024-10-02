@@ -3,7 +3,7 @@ export const info = {
   twitterUrl: "",
   instaUrl: "",
   locationUrl: "",
-  address: "Rahmat Nager, Kareli",
+  address: "Rampur Tiraha, Mirzapur Road, Prayagraj- 212301",
   phoneNo: "+91-7905399065",
   email: "saveragraminfoundation@gmail.com",
 };

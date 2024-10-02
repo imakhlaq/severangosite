@@ -8,10 +8,16 @@ type Props = {};
 const HeroDonation = (props: Props) => {
   return (
     <section className="flex flex-col md:flex-row items-center gap-10 md:gap-0 md:py-14 md:mt-10 justify-around">
-      <div className="md:max-w-96 lg:max-w-[40rem]">
-        <Image src={hero} width={800} height={100} alt="Student Pics"></Image>
+      <div className="md:max-w-96 lg:max-w-[40rem] xl:max-w-[80rem]">
+        <Image
+          src={hero}
+          width={800}
+          height={100}
+          alt="Student Pics"
+          className="rounded-md p-3"
+        ></Image>
       </div>
-      <div className="py-3 lg:py-0 lg:flex-initial lg:max-w-[20rem] lg:-ml-24 xl:-ml-72">
+      <div className="py-3 lg:py-0 lg:max-w-[40rem] lg:-ml-24 xl:-ml-72">
         <p className="text-center text-2xl font-bold mb-3 text-greenColor">
           Support Our Cause
         </p>
