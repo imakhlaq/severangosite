@@ -14,7 +14,6 @@ export default function Footer({}: Props) {
         <div>
           <p>Savera Gramin Foundation</p>
           <p className="md:max-w-md">
-            Lonsectetur adipisicing elit. Eveniet labore minima reiciendis.
             {info.address}
           </p>
         </div>

@@ -4,6 +4,6 @@ export const info = {
   instaUrl: "",
   locationUrl: "",
   address: "Rampur Tiraha, Mirzapur Road, Prayagraj- 212301",
-  phoneNo: "+91-7905399065",
+  phoneNo: "+91-7460815951",
   email: "saveragraminfoundation@gmail.com",
 };
